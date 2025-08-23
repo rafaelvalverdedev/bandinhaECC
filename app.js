@@ -52,7 +52,7 @@ const COLUMNS = [
 
             { type: "section", id: "sa-sec-2", time: "08:30", label: "PLENÁRIO (Oração da Manhã)", duration: "" },
 
-            { id: "sa-06", time: "", title: "Com Cristo no meu barco", tone: "D", url: "audio/exemplo.mp3" },
+            { id: "sa-06", time: "", title: "Com Cristo no meu barco", tone: "D", url: "audio/Com Cristo No Meu Barco.m4a" },
 
             { type: "section", id: "sa-sec-2", time: "09:20", label: "do PÁTIO para CÍRCULO", duration: "" },
             { id: "sa-07", time: "", title: "Conte a Deus", tone: "D", page: 38, url: "audio/exemplo.mp3" },
