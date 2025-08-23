@@ -148,7 +148,7 @@ const COLUMNS = [
             { type: "section", id: "dg-sec-1", time: "08:35", label: "PÁTIO", duration: "", pagHead: "PAG" },
             { id: "dg-05", time: "", title: "Poderoso Deus", tone: "D", page: 30, url: "audio/exemplo.mp3" },
             { id: "dg-05", time: "", title: "Eu vejo uma pequena nuvem", tone: "Dm", page: 31, url: "audio/exemplo.mp3" },
-            { id: "dg-05", time: "", title: "MUSICA DO BUSCOITO", tone: "", url: "audio/exemplo.mp3" },
+            { id: "dg-05", time: "", title: "MUSICA DO BISCOITO", tone: "", url: "audio/musica do biscoito.mp3" },
 
             { type: "section", id: "dg-sec-1", time: "08:35", label: "do PÁTIO para PLENÁRIO", duration: "", pagHead: "PAG" },
             { id: "dg-05", time: "", title: "Somo todos nós (Variando o ritmo)", tone: "D", page: 8, url: "audio/exemplo.mp3" },
@@ -190,7 +190,7 @@ const COLUMNS = [
             { type: "section", id: "dg-sec-1", time: "12:05", label: "do PLENÁRIO para ALMOÇO", duration: "", pagHead: "PAG" },
             { id: "dg-05", time: "", title: "Ao Senhor agradecemos essa nossa refeição", tone: "", url: "audio/exemplo.mp3" },
             { id: "dg-05", time: "", title: "Pensando que cachaça é agua / Batida de Coco", tone: "", url: "audio/exemplo.mp3" },
-            { id: "dg-05", time: "", title: "A turma da cozinha é animada", tone: "", url: "audio/exemplo.mp3" },
+            { id: "dg-05", time: "", title: "A turma da cozinha é animada", tone: "", url: "audio/a turma da cozinha e animada.mp3" },
             { id: "dg-05", time: "", title: "Musica do Parabens para você", tone: "", url: "audio/exemplo.mp3" },
 
 
@@ -222,7 +222,7 @@ const COLUMNS = [
             { id: "dg-05", time: "", title: "Somo todos nós (Entra cantando)", tone: "D", page: 8, url: "audio/exemplo.mp3" },
 
             { type: "section", id: "dg-sec-1", time: "16:10", label: "PLENÁRIO", duration: "", pagHead: "PAG" },
-            { id: "dg-05", time: "", title: "O céu escureceu (falsa despedida)", tone: "Am", url: "audio/exemplo.mp3" },
+            { id: "dg-05", time: "", title: "O céu escureceu (falsa despedida)", tone: "Am", url: "audio/falsa-despedida.mp3" },
 
             { type: "section", id: "dg-sec-1", time: "20:50", label: "PLENÁRIO (Apresentação das Equipes)", duration: "", pagHead: "PAG" },
             { id: "dg-05", time: "", title: "Há uma luz", tone: "D", page: 9, url: "audio/exemplo.mp3" },
