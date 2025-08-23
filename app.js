@@ -24,7 +24,7 @@ const COLUMNS = [
             { id: "sx-11", time: "", title: "Somos todos nós", tone: "D", page: 8, url: "audio/exemplo.mp3" },
 
             { type: "section", id: "sx-sec-3", time: "20:10", label: "PLENÁRIO", duration: "10:00" },
-            { id: "sx-12", time: "", title: "Foi bom conhecer você (Amigo é uma alegria ter)", tone: "D", page: 6, url: "audio/exemplo.mp3" },
+            { id: "sx-12", time: "", title: "Foi bom conhecer você (Amigo é uma alegria ter)", tone: "D", page: 6, url: "audio/Foi Bom Conhecer Voce.m4a" },
         ],
     },
 
@@ -55,7 +55,7 @@ const COLUMNS = [
             { id: "sa-06", time: "", title: "Com Cristo no meu barco", tone: "D", url: "audio/Com Cristo No Meu Barco.m4a" },
 
             { type: "section", id: "sa-sec-2", time: "09:20", label: "do PÁTIO para CÍRCULO", duration: "" },
-            { id: "sa-07", time: "", title: "Conte a Deus", tone: "D", page: 38, url: "audio/exemplo.mp3" },
+            { id: "sa-07", time: "", title: "Conte a Deus", tone: "D", page: 38, url: "audio/Conte A Deus.m4a" },
 
             { type: "section", id: "sa-sec-2", time: "10:00", label: "do CÍRCULO  para PÁTIO", duration: "" },
             { id: "sa-08", time: "", title: "Com muito louvor (Deus vai na frente)", tone: "A", page: 22, url: "audio/exemplo.mp3" },
@@ -74,7 +74,7 @@ const COLUMNS = [
             { id: "sa-16", time: "", title: "Somos todos nós", tone: "D", page: 8, url: "audio/exemplo.mp3" },
 
             { type: "section", id: "sa-sec-2", time: "11:40", label: "PLENÁRIO", duration: "" },
-            { id: "sa-17", time: "", title: "Utopia", tone: "E", page: 52, url: "audio/exemplo.mp3" },
+            { id: "sa-17", time: "", title: "Utopia", tone: "E", page: 52, url: "audio/utopia.mpa" },
 
             { type: "section", id: "sa-sec-2", time: "11:45", label: "do PLENÁRIO para CONVERSA A DOIS", duration: "" },
             { id: "sa-18", time: "", title: "Só o poder de Deus", tone: "D", page: 11, url: "audio/exemplo.mp3" },
