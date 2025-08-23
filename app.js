@@ -6,7 +6,7 @@ const COLUMNS = [
         items: [
             { type: "section", id: "sx-sec-1", time: "19:30", label: "PÁTIO", duration: "30:00", pagHead: "PAG" },
 
-            { id: "sx-01", time: "", title: "Boa noite amigo boa noite irmão", tone: "D", page: 14, url: "audio/utopia.mp3" },
+            { id: "sx-01", time: "", title: "Boa noite amigo boa noite irmão", tone: "D", page: 14, url: "audio/exemplo.mp3" },
             { id: "sx-02", time: "", title: "Celebrai com jubilo", tone: "D", page: 64, url: "audio/exemplo.mp3" },
             { id: "sx-03", time: "", title: "Reunidos Aqui", tone: "D", page: 13, url: "audio/exemplo.mp3" },
             { id: "sx-04", time: "", title: "A alegria está no coração", tone: "D", page: 5, url: "audio/exemplo.mp3" },
