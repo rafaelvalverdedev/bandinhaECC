@@ -1,5 +1,5 @@
 :root {
-    --bg: #eef2f6;
+    --bg: #dddee0;
     --ink: #111827;
     --muted: #6b7280;
     --line: #d1d5db;
@@ -38,16 +38,21 @@ body {
 }
 
 /* 3 -> 2 -> 1 colunas com largura mínima de ~420px */
-.grid{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;               /* funciona em flex nos navegadores modernos */
-  align-items: flex-start;  /* NÃO estica as alturas para igualar */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* funciona em flex nos navegadores modernos */
+    align-items: flex-start;
+    /* NÃO estica as alturas para igualar */
 }
 
 /* Coluna/dia */
 
-.column{ flex: 1 1 420px; min-width: 420px; }
+.column {
+    flex: 1 1 420px;
+    min-width: 420px;
+}
 
 
 .col-header {
@@ -163,18 +168,18 @@ body {
 }
 
 .modal {
-    width: min(680px, 100%);
+    width: min(500px, 100%);
     background: #fff;
     border: 1px solid var(--line);
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 24px 60px rgba(0, 0, 0, .35)
+    box-shadow: 0 24px 60px rgba(0, 0, 0, .95)
 }
 
 .modal__header {
     background: var(--blue);
     color: #fff;
-    padding: 12px 16px;
+    padding: 5px 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -182,9 +187,9 @@ body {
 }
 
 .modal__body {
-    padding: 18px;
+    padding: 10px;
     display: grid;
-    gap: 12px
+    gap: 8px
 }
 
 .modal__meta {
@@ -193,7 +198,7 @@ body {
 }
 
 .track-title {
-    font-weight: 800
+    font-weight: 800;
 }
 
 .controls {
@@ -222,18 +227,11 @@ body {
     transform: translateY(1px)
 }
 
-.vol {
-    display: flex;
-    gap: 8px;
-    align-items: center
-}
-
 /* Cabeçalho da última coluna (PAG) */
 .pag-head {
     display: inline-block;
-    font-weight: 600;
-    font-size: 0.55rem;
-    /* maior que o padrão das células */
+    font-weight: 800;
+    font-size: 0.95rem;
     letter-spacing: .4px;
     line-height: 1.1;
     text-transform: uppercase;
@@ -243,75 +241,82 @@ body {
 .duration-badge {
     display: inline-block;
     font-weight: 800;
-    font-size: 0.55rem;
-    /* maior que o texto padrão */
+    font-size: 0.95rem;
     letter-spacing: .4px;
     line-height: 1.1;
 }
 
 /* Itens sem URL (sem áudio) */
 .row.no-url {
-  background: #fdf2f2;        /* fundo avermelhado claro */
-  color: #cc6969;             /* texto vermelho escuro */
-  font-style: italic;
-  font-weight: 500;
+    background: #fdf2f2;
+    /* fundo avermelhado claro */
+    color: #cc6969;
+    /* texto vermelho escuro */
+    font-style: italic;
+    font-weight: 500;
 }
 
 .row.no-url:hover {
-  background: #fee2e2;        /* hover também diferenciado */
-  cursor: not-allowed;        /* mostra que não é clicável */
+    background: #fee2e2;
+    /* hover também diferenciado */
+    cursor: not-allowed;
+    /* mostra que não é clicável */
 }
 
-@media (min-width: 480px) {
+
+@media (min-width:480px) {
+    .duration-badge {
+        font-size: 1rem;
+    }
+
     .pag-head {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 }
 
 
-
-
-
 /* utilitária (já existe para modal); garantimos aqui também */
-.hidden { display: none !important; }
+.hidden {
+    display: none !important;
+}
 
 /* Layout do login */
 .login-wrap {
-  min-height: 100dvh;
-  display: grid;
-  place-items: center;
-  padding: 16px;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+    padding: 16px;
 }
 
 .login-card {
-  width: min(420px, 92vw);
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 18px;
-  box-shadow: 0 16px 40px rgba(0,0,0,.15);
+    width: min(420px, 92vw);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, .15);
 }
 
 .login-card h1 {
-  margin: 0 0 8px;
-  color: var(--blue);
+    margin: 0 0 8px;
+    color: var(--blue);
 }
 
 .login-row {
-  display: flex;
-  gap: 8px;
-  margin: 12px 0 6px;
+    display: flex;
+    gap: 8px;
+    margin: 12px 0 6px;
 }
 
 #phoneInput {
-  flex: 1;
-  padding: 10px 12px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  font-size: 1rem;
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-size: 1rem;
 }
 
 .login-msg {
-  color: #991b1b;
-  min-height: 1.25em;
+    color: #991b1b;
+    min-height: 1.25em;
 }
