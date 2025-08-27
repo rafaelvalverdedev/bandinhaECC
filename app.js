@@ -261,10 +261,10 @@ function logout() {
 }
 
 // encerra sessão ao fechar/atualizar a página
-window.addEventListener("beforeunload", () => {
+//window.addEventListener("beforeunload", () => {
   // Só limpar o storage; alterações no DOM aqui não fazem efeito prático
-  localStorage.removeItem("authPhone");
-});
+//  localStorage.removeItem("authPhone");
+//});
 
 // ======= FUNÇÕES AUX =======
 function isAuthenticated() {
