@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+    <section id="login" class="login-wrap">
+    <div class="login-card" role="form" aria-label="Login por celular">
+      <h1>Entrar</h1>
+      <p>Digite seu celular cadastrado (somente números):</p>
+      <div class="login-row">
+        <input id="phoneInput" type="tel" inputmode="numeric" pattern="\d*" placeholder="Ex.: 75988887777" />
+        <button id="btnLogin" class="btn">Entrar</button>
+      </div>
+      <p id="loginMsg" class="login-msg" aria-live="polite"></p>
+    </div>
+  </section>
+
+  
   <main class="app">
     <div id="grid" class="grid" aria-live="polite"></div>
   </main>

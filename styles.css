@@ -29,20 +29,19 @@ body {
     margin: 0;
     background: var(--bg);
     color: var(--ink);
-    font-family: Segoe UI, Roboto, Arial, sans-serif
 }
 
 .app {
     max-width: 1500px;
-    margin: 24px auto;
-    padding: 0 16px
+    margin: 20px auto;
+    padding: 0 14px
 }
 
 /* 3 -> 2 -> 1 colunas com largura mínima de ~420px */
 .grid{
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;               /* funciona em flex nos navegadores modernos */
+  gap: 16px;               /* funciona em flex nos navegadores modernos */
   align-items: flex-start;  /* NÃO estica as alturas para igualar */
 }
 
@@ -240,14 +239,6 @@ body {
     text-transform: uppercase;
 }
 
-/* se quiser ainda maior em telas médias+ */
-@media (min-width: 480px) {
-    .pag-head {
-        font-size: 0.75rem;
-    }
-}
-
-
 /* Destaque para a duração (ex.: 30:00 / 10:00) nas barras de seção */
 .duration-badge {
     display: inline-block;
@@ -258,9 +249,69 @@ body {
     line-height: 1.1;
 }
 
-/* opcional: escalar um pouco em telas maiores */
+/* Itens sem URL (sem áudio) */
+.row.no-url {
+  background: #fdf2f2;        /* fundo avermelhado claro */
+  color: #cc6969;             /* texto vermelho escuro */
+  font-style: italic;
+  font-weight: 500;
+}
+
+.row.no-url:hover {
+  background: #fee2e2;        /* hover também diferenciado */
+  cursor: not-allowed;        /* mostra que não é clicável */
+}
+
 @media (min-width: 480px) {
-    .duration-badge {
-        font-size: 0.755rem;
+    .pag-head {
+        font-size: 0.75rem;
     }
+}
+
+
+
+
+
+/* utilitária (já existe para modal); garantimos aqui também */
+.hidden { display: none !important; }
+
+/* Layout do login */
+.login-wrap {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.login-card {
+  width: min(420px, 92vw);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 16px 40px rgba(0,0,0,.15);
+}
+
+.login-card h1 {
+  margin: 0 0 8px;
+  color: var(--blue);
+}
+
+.login-row {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0 6px;
+}
+
+#phoneInput {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.login-msg {
+  color: #991b1b;
+  min-height: 1.25em;
 }
